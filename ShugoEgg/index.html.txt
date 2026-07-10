@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Яйцо Судьбы ✨</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div class="background"></div>
+
+<header>
+
+<h1>✨ Яйцо Судьбы ✨</h1>
+
+<p>
+Ты уже вытащил яйцо в лотерее.
+<br><br>
+Теперь выбери его, чтобы узнать,
+какую скрытую черту характера оно раскрывает
+и какое предсказание приготовило именно тебе.
+</p>
+
+</header>
+
+<main>
+
+<div class="egg-grid">
+
+<div class="egg" data-character="ran">
+<img src="images/ran.png" alt="Ран">
+<span>Ран</span>
+</div>
+
+<div class="egg" data-character="miki">
+<img src="images/miki.png" alt="Мики">
+<span>Мики</span>
+</div>
+
+<div class="egg" data-character="su">
+<img src="images/su.png" alt="Су">
+<span>Су</span>
+</div>
+
+<div class="egg" data-character="dia">
+<img src="images/dia.png" alt="Дайя">
+<span>Дайя</span>
+</div>
+
+<div class="egg" data-character="eru">
+<img src="images/eru.png" alt="Эру">
+<span>Эру</span>
+</div>
+
+<div class="egg" data-character="iru">
+<img src="images/iru.png" alt="Иру">
+<span>Иру</span>
+</div>
+
+<div class="egg" data-character="yoru">
+<img src="images/yoru.png" alt="Ёру">
+<span>Ёру</span>
+</div>
+
+<div class="egg" data-character="pepe">
+<img src="images/pepe.png" alt="Пепе">
+<span>Пепе</span>
+</div>
+
+<div class="egg" data-character="kusu">
+<img src="images/kusu.png" alt="Кусу-Кусу">
+<span>Кусу-Кусу</span>
+</div>
+
+<div class="egg" data-character="daichi">
+<img src="images/daichi.png" alt="Даичи">
+<span>Даичи</span>
+</div>
+
+</div>
+
+</main>
+
+<div id="popup" class="popup">
+
+<div class="popup-card">
+
+<button id="close">✕</button>
+
+<img id="popupImage">
+
+<h2 id="popupTitle"></h2>
+
+<h3>Твоя скрытая черта</h3>
+
+<p id="trait"></p>
+
+<h3>Предсказание</h3>
+
+<p id="prediction"></p>
+
+<h3>Совет</h3>
+
+<p id="advice"></p>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

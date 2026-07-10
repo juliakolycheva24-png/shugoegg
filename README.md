@@ -1,2 +1,0 @@
-# shugoegg
-Cosplay Edition
